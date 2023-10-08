@@ -1,7 +1,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int main(void)
 {
@@ -12,8 +11,9 @@ int main(void)
     char c = 0;
     float f2 = 1.48;
     int radiusOfSphere = 1;
-    float volumeOfSphere = (4*M_PI*(float)radiusOfSphere*(float)radiusOfSphere*(float)radiusOfSphere)/3;
-    float surfaceAreaOfSphere = 4*M_PI*(float)radiusOfSphere*(float)radiusOfSphere; 
+    float pi = 3.14159;
+    float volumeOfSphere = (4*pi*(float)radiusOfSphere*(float)radiusOfSphere*(float)radiusOfSphere)/3;
+    float surfaceAreaOfSphere = 4*pi*(float)radiusOfSphere*(float)radiusOfSphere; 
 
     // Use printf display text on the screen
     printf ("The variables are\na = %d\nb=%d\nf=%f\n", a, b, f);
