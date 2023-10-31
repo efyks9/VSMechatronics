@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define M_PI 3.14159265358979323846264338327950288
+
 // Define HOW the function is to be used, code comes later
 float CalculateSurfaceAreaOfCylinder ( float R, float L );
 
